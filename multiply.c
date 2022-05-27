@@ -4,12 +4,12 @@ int main() {
   int x;
   int y;
 
-  printf("Primeiro valor: ");
+  printf("1st number: ");
   scanf("%d", &x);
 
-  printf("Segundo valor: ");
+  printf("2nd number: ");
   scanf("%d", &y);
 
   int m = x * y;
-  printf("A multiplicacao de %d por %d eh igual a %d\n", x, y, m);
+  printf("Then %d times %d is %d\n", x, y, m);
 }
